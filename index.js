@@ -39,3 +39,4 @@ app.use("/snake", snakeRouter)
 app.listen(process.env.PORT, () => {
     console.log(`Server Started at ${process.env.PORT}`)
 })
+app.timeout=200

@@ -91,6 +91,7 @@ exports.getSnakeFromSpec = (req, res, next) => {
           }
           reject("cannot found");
         });
+        reject("cannot found");
       })
       .catch((err) => {
         console.log(err);
